@@ -93,9 +93,8 @@ figcaption {
 	margin: auto;
 }
 
-li:hover {
-	border: 1px solid;
-	
+ul img:hover {
+	border: solid white;
 }
 
 .btn {
@@ -159,9 +158,8 @@ li:hover {
 		
 	}
 
-	li:hover {
-		border: 1px solid;
-		
+	ul img:hover {
+		border: solid white;
 	}
 
 	.btn {

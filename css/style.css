@@ -73,6 +73,11 @@ img {
 	justify-content: center;
 	
 	
+	
+}
+
+.content ul {
+	max-width: 858px;
 }
 
 figcaption {
@@ -138,6 +143,7 @@ li:hover {
 		display: flex;
 		flex-direction: row;
 		margin-top: 50px;
+		max-width: 858px;
 		
 	}
 
@@ -149,7 +155,7 @@ li:hover {
 	}
 
 	.addPerfil h3 {
-		margin-top: 78px;
+		margin-top: 55px;
 		
 	}
 

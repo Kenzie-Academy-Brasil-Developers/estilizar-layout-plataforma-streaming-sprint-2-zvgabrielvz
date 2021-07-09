@@ -28,11 +28,6 @@ body{
 }
 
 /*TOPO*/
-.topo{
-		display: flex;
-		justify-content: center;
-		
-}
 
 
 
@@ -40,49 +35,64 @@ body{
 	
 
 /*PÁGINA INICIAL*/
+
+
+.topo {
+	width: 100%;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.topo img {
+	width: 200px;
+	margin-top: 20px;
+}
+
+
+.pg-home{
+	min-width: 320px;
+	text-align: center;
+	
+
+}
 .pg-home header{
 	text-align: center;
-	font-size: 20px;
+	font-size: 16px;
+	margin-bottom: 20px;	
+}
+
+.content img {
+	width: 105px;
+	margin-top: 10px;
+	margin-right: 20px;
 	
 }
 
-	
-img {
-	
-	max-width: 186px;
-	margin: 10px;
-	
-	
+.content h3 {
+	font-size: smaller;
+	width: 105px;
 }
-
 .box1 {
-	display: flex;
-	text-align: center;
-}
-
-.box2 {	
-	display: flex;
-	text-align: center;
-	
-	
-}
-
-
-.content {
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	
 	
-	
 }
 
-.content ul {
-	max-width: 858px;
+.box2 {	
+	width: 100%;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
 }
 
 figcaption {
 	display: none;
 }
+
+
+/*////////////////////////// Botao */
 
 .btn {
 	display: flex;	
@@ -106,58 +116,81 @@ ul img:hover {
 	color: black;
 }
 
-.addPerfil {
-	display: flex;
-	flex-direction: column;
-	width: 186px;
-			
-}
-
-.addPerfil img {
-	margin-top: 30px;
-	
-}
-
-.addPerfil h3 {
-	margin-top: 55px;
-	
-}
-
-
 @media (min-width: 768px ) {
-	.topo{
-		display: flex;
-		justify-content: flex-start;
+	
+	.pg-home{
+		min-width: 500px;
 		
 	}
+
+	.content img {
+		width: 150px;
+		margin-top: 10px;
+		margin-right: 20px;
+		
+	}
+
+	.users h3 {
+		width: 150px;
+		text-align: center;
+	}
+
+}
+
+
+@media (min-width: 860px ) {
+
+	.topo {
+		width: 100%;
+		margin-bottom: 30px;
+		text-align: start;
+		
+	}
+
+	.pg-home{
+		width: 858px;
+		position: absolute;
+		left: 50%;
+		top:50%;
+		transform: translate(-50%, -50%);
+		}
 
 	.pg-home header{
-		text-align: center;
 		font-size: 35px;
-		margin-top: 150px;
+		margin-bottom: 50px;		
+	}
+
+	.content img {
+		width: 160px;
+		margin-top: 10px;
+		margin-right: 0px
 		
 	}
 
-	.content ul {
+	.users h3 {
+		width: 186px;
+		text-align: center;	
+		margin-top: 25px;
+	}
+
+	.box2 {
+		margin-top:0px;
+		
+	}
+	
+	.users li {
+		width: 186px;
+	}
+
+	
+	.users {
 		display: flex;
 		flex-direction: row;
-		margin-top: 50px;
-		max-width: 858px;
-		
+		width: 858px;	
 	}
+	
 
-	.addPerfil {
-		display: flex;
-		flex-direction: column;
-		width: 186px;
-				
-	}
-
-	.addPerfil h3 {
-		margin-top: 55px;
-		
-	}
-
+	
 	ul img:hover {
 		border: solid white;
 	}
